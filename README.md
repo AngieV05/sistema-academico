@@ -49,6 +49,8 @@ Aplicaciones principales:
 git clone https://github.com/AngieV05/sistema-academico.git
 cd sistema-academico
 
+---
+
 ## 🚀 Despliegue en Servor Exteno
 
 El sistema ha sido desplegado en la nube utilizando Railway, permitiendo su acceso desde cualquier navegador con conexión a internet.
