@@ -46,5 +46,5 @@ Aplicaciones principales:
 ### 1. Clonar repositorio
 
 ```bash
-git clone https://github.com/usuario/proyecto.git
-cd proyecto
+git clone https://github.com/AngieV05/sistema-academico.git
+cd sistema-academico
