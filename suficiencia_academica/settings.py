@@ -21,20 +21,17 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
-    CSRF_TRUSTED_ORIGINS = [
-    'https://*.railway.app',
+# CSRF Configuration
+CSRF_TRUSTED_ORIGINS = [
+    'https://sistema-academico-production-1341.up.railway.app',
     'https://*.up.railway.app',
+    'https://*.railway.app',
     'http://localhost:8000',
 ]
 
-CSRF_COOKIE_SECURE = True
+CSRF_COOKIE_SECURE = False  # Cambiar a True solo si está en HTTPS puro
 CSRF_COOKIE_HTTPONLY = False
-SESSION_COOKIE_SECURE = True
-
-SECURE_SSL_REDIRECT = True
-SECURE_HSTS_SECONDS = 31536000
-SECURE_HSTS_INCLUDE_SUBDOMAINS = True
-SECURE_HSTS_PRELOAD = True
+SESSION_COOKIE_SECURE = False  # Cambiar a True solo si está en HTTPS puro
 
 
 INSTALLED_APPS = [
